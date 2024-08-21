@@ -1,0 +1,1 @@
+tive que fazer fillna(0) nele na coluna PortionUOMTypeId pq tinha NA
