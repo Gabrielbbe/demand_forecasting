@@ -20,5 +20,23 @@
 ¹ - https://www.mordorintelligence.com/industry-reports/brazil-foodservice-market \
 ² - https://www.kaggle.com/datasets/rishitsaraf/fast-food-restaurant-chain?select=sub_recipes.csv
 
+# Preparação dos dados, modelagem e validação 
+
+Para mais detalhes sobre a análise é possível acessar o [report técnico](https://github.com/Gabrielbbe/demand_forecasting/blob/main/reports/demand_forecasting_report_tecnico.pdf) e para mais detalhes sobre o código e os procedimentos utilizados é possível acessar o notebook da análise com a análise completa
+
+Foi separado a frequência de cada ingrediente agrupado de acordo com cada loja e tivemos dados nesse formato de dicionário do python: 
+
+{'StoreNumber' : { 'ingrediente': { 'data' : [datas], 'frequencia': [frequencias] } } }
+
+ Após investigar a existência de tendências, sazonalidade e estacionaridade utilizando testes de hipótese foi escolhido alguns modelos que estão mais de acordo com as características dos dados: 
+
+ - Exponential Smoothing Models que pode ser ajustado em dados que possuem tendências, sazonalidade e pode ser ajustado mesmo se a serie não for estacionária.
+ - State Space Models que pode ser ajustado em dados não estacionários e com tendências.
+ - Além desses modelos de séries temporais podemos utilizar modelos de aprendizado de máquina como o random forest e xgboost que não fazem nenhum tipo de suposição.
+
+ Então para cada ingrediente em cada loja foi feita a divisão de treino e teste time series k-fold com k = 2.
+ Então foi ajustado os modelos Exponential Smoothing Model, State Space Model, random forest e XGBoost.
+ Calculado as métrica SME, RSME e a contagem de estimativas abaixo do valor real.
+ Então foi escolhido o modelo com menor RSME, como sabemos que antes a rede estava utilizando o modelo média móvel ele também foi ajustado e foi comparada a performance do modelo escolhido com menor RSME e o modelo média móvel com lag = 3 utilizado anteriormente.
 
 
