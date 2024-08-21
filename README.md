@@ -1,5 +1,5 @@
 # Case: Demand Forecasting 
- Nesse projeto fiz a previsão de demanda de ingredientes necessários para realização das atividades de uma rede de fast-food, utilizando técnicas de modelagem estatística, aprendizado de máquina e séries temporais fiz a previsão a demanda de todos os ingredientes, foi automatizado um experimento para ajustar alguns modelos que fazem sentido para os dados, e então os modelos foram salvos no MLFlow onde temos uma API para manipular os modelos treinados e verificar o valor das métricas de avaliação dos modelos.
+ Nesse projeto fiz a previsão de demanda de ingredientes necessários para realização das atividades de uma rede de fast-food, utilizando técnicas de modelagem estatística, aprendizado de máquina e séries temporais fiz a previsão a demanda de todos os ingredientes individualmente para cada restaurante da rede, foi automatizado um experimento para ajustar alguns modelos que fazem sentido para os dados, e então os modelos foram salvos no MLFlow onde temos uma API para manipular os modelos treinados e verificar o valor das métricas de avaliação dos modelos.
 
 # Parte de negócios
 
