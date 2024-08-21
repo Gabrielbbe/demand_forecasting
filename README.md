@@ -22,7 +22,7 @@
 
 # Preparação dos dados, modelagem e validação 
 
-Para mais detalhes sobre a análise é possível acessar o [report técnico](https://github.com/Gabrielbbe/demand_forecasting/blob/main/reports/demand_forecasting_report_tecnico.pdf) e para mais detalhes sobre o código e os procedimentos utilizados é possível acessar o notebook da análise com a análise completa
+Para mais detalhes sobre a análise é possível acessar o [report técnico](https://github.com/Gabrielbbe/demand_forecasting/blob/main/reports/demand_forecasting_report_tecnico.pdf) e para mais detalhes sobre o código e os procedimentos utilizados é possível acessar o notebook da [análise com a análise completa](https://github.com/Gabrielbbe/demand_forecasting/blob/main/analise.ipynb)
 
 Foi separado a frequência de cada ingrediente agrupado de acordo com cada loja e tivemos dados nesse formato de dicionário do python: 
 
