@@ -46,4 +46,5 @@ Por mais que tenhamos ingredientes que possuem comportamentos e demandas diferen
 
  Para gerenciar os experimentos e os modelos foi utilizado o MLFlow que é uma ferramenta de gerenciamento de modelos e experimentos, além disso ele possui uma API para acessar os modelos que são treinados e salvos dentro do MLFlow tornando possível acessar os modelos e os experimentos para coletar informações como as métricas de avaliação dos modelos para cada modelo e experimento, acessar o modelo treinado para fazer previsões em outros datasets, acessar o tempo que levou para treinar os modelos entre outras coisas. 
 
- colocar img mlflow
+![mlflowgui](https://github.com/user-attachments/assets/5987c0b7-9016-4a31-943d-a1288804a39d)
+
