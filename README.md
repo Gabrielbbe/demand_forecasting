@@ -15,7 +15,7 @@
 
  Também foi informado que atualmente eles utilizam a média móvel (com lag = 3) para prever a demanda de cada ingrediente, seria interessante se fosse possível ajustar outros modelos que tenham uma performance melhor.
 
- As peguntas de negócios foram respondidas no report de negócios no report de negócios :  
+ AS perguntas de négócios foram respondidas no [report de negócios](https://github.com/Gabrielbbe/demand_forecasting/blob/main/reports/negocios.pdf)
 
 ¹ - https://www.mordorintelligence.com/industry-reports/brazil-foodservice-market \
 ² - https://www.kaggle.com/datasets/rishitsaraf/fast-food-restaurant-chain?select=sub_recipes.csv
